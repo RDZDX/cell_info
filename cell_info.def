@@ -1,0 +1,7 @@
+; cell_info.def : Declares the module parameters for the DLL.
+
+LIBRARY      "cell_info"
+DESCRIPTION  'cell_info Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
